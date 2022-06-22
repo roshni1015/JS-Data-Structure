@@ -6,7 +6,7 @@ var count5 =0;
 var count6=0;
 var Value=0;
 var Dict = {1:count1,2:count2,3:count3,4:count4,5:count5,6:count6};
-function RollDice(){
+function RollDice() {
     while((count1 < 10) && (count2 < 10) && (count3 < 10) && (count4 < 10) && (count5 < 10) && (count6 < 10))
     {
         Value = Math.floor(1+(Math.random() * 6));
